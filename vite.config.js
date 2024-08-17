@@ -7,7 +7,13 @@ export default defineConfig({
   base: "/my-project/", // Set this to the subdirectory your site will be served from
   build: {
     rollupOptions: {
-      external: ["framer-motion", "react-icons/fa"],
+      external: [
+        "framer-motion",
+        "react-icons/fa",
+        "react-icons/ri", // Include react-icons/ri
+        "react",
+        "react-dom",
+      ],
     },
   },
 });
