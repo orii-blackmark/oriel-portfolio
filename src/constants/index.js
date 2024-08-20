@@ -15,7 +15,6 @@ export const EXPERIENCES = [
     description: `Providing technical support to end-users addressing hardware and software issues`,
     technologies: [""],
   },
-  
 ];
 
 export const PROJECTS = [
@@ -24,7 +23,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "Maya is a virtual assistant chatbot built to provide assistance to users of the Child Protection Information Management Service (CPIMS). It is designed to provide users with quick and accurate responses to common queries and questions related to child protection.",
-    technologies: ["Flask", "Tailwind CSS", "Python", "TensorFlow", "Pandas"],
+    technologies: ["Flask", "Python", "TensorFlow", "Tailwind CSS", "Pandas"],
   },
   {
     title: "Online Cyber Application",
