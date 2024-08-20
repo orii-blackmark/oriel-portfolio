@@ -2,7 +2,7 @@ import project1 from "../assets/projects/maya.png";
 import project2 from "../assets/projects/cyber.png";
 import project3 from "../assets/projects/elearning.png";
 import project4 from "../assets/projects/blog.png";
-
+import project5 from "../assets/projects/whatsapp.png";
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and vue js, as well as back-end technologies like Node.js, PHP laravel,  MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including React, Vue.js, Node.js, PHP laravel, MySQL, PostgreSQL and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies and contributing to open-source projects.`;
@@ -44,7 +44,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "Maya is a virtual assistant chatbot built to provide assistance to users of the Child Protection Information Management Service (CPIMS). It is designed to provide users with quick and accurate responses to common queries and questions related to child protection.",
-    technologies: ["Flask", "Tailwind CSS", "HTML", "JavaScript", "Json"],
+    technologies: ["Flask", "Tailwind CSS", "Python", "TensorFlow", "Pandas"],
   },
   {
     title: "Online Cyber Application",
@@ -66,6 +66,13 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "PHP", "JavaScript", "mySQL", "Bootstrap"],
+  },
+  {
+    title: "Chat Application",
+    image: project5,
+    description:
+      "A Chat platform used in communication with clients. It can be intergrated with E-commerce platforms and other social platforms to manage the transactions easily.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
 
