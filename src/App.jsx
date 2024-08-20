@@ -1,6 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Contacts from "./components/contacts";
+import Contacts from "./components/Contacts";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
