@@ -23,8 +23,8 @@ const Projects = () => {
             >
               <img
                 src={project.image}
-                width={150}
-                height={150}
+                width={250}
+                height={250}
                 alt={project.title}
                 className="mb-6 rounded"
               />
@@ -40,7 +40,7 @@ const Projects = () => {
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900"
+                  className="mr-2 rounded bg-neutral-300 px-2 py-1 text-sm font-medium text-orange-900"
                 >
                   {tech}
                 </span>

@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/maya.png";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project2 from "../assets/projects/cyber.png";
+import project3 from "../assets/projects/elearning.png";
+import project4 from "../assets/projects/blog.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like React and vue js, as well as back-end technologies like Node.js, PHP laravel,  MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -44,28 +44,28 @@ export const PROJECTS = [
     image: project1,
     description:
       "Maya is a virtual assistant chatbot built to provide assistance to users of the Child Protection Information Management Service (CPIMS). It is designed to provide users with quick and accurate responses to common queries and questions related to child protection.",
-    technologies: ["Flask", "Tailwind CSS", "HTML", "Js", "Json"],
+    technologies: ["Flask", "Tailwind CSS", "HTML", "JavaScript", "Json"],
   },
   {
-    title: "Task Management App",
+    title: "Online Cyber Application",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "This is an online platform aimed at providing a user interactive and friendly way of doing cyber services at the comfort of your home.",
+    technologies: ["PHP", "HTML", "CSS", "JavaScript", "mySQL"],
   },
   {
-    title: "Portfolio Website",
+    title: "Elearning Platform",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "This platform is designed to provide learners with access to online learning resources and tools that will help them achieve their academic and professional goals.",
+    technologies: ["HTML", "CSS", "PHP", "JavaScript", "mySQL"],
   },
   {
     title: "Blogging Platform",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "PHP", "JavaScript", "mySQL", "Bootstrap"],
   },
 ];
 
