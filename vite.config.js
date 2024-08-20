@@ -4,15 +4,15 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/my-project/", // Set this to the subdirectory your site will be served from
+  base: './',
   build: {
     rollupOptions: {
       external: [
-        "framer-motion",
-        "react-icons/fa",
-        "react-icons/ri", // Include react-icons/ri
-        "react",
-        "react-dom",
+        // "framer-motion", // Uncomment if you want to exclude this from the build
+        // "react-icons/fa", // Uncomment if you want to exclude this from the build
+        // "react-icons/ri", // Uncomment if you want to exclude this from the build
+        // "react", // Uncomment if you want to exclude this from the build
+        // "react-dom", // Uncomment if you want to exclude this from the build
       ],
     },
   },
