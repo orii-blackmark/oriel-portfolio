@@ -40,6 +40,7 @@ const Contacts = () => {
         });
       }
     } catch (error) {
+      console.error("Error submitting the form:", error); // Log the error
       Swal.fire({
         title: "Error!",
         text: "An error occurred. Please try again later.",
