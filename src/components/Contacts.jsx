@@ -1,5 +1,6 @@
 import "../assets/contact.css";
 import Swal from "sweetalert2";
+import { motion } from "framer-motion";
 import { useState } from "react";
 
 const Contacts = () => {
@@ -53,7 +54,21 @@ const Contacts = () => {
 
   return (
     <section className="contact">
-      <form onSubmit={onSubmit}>
+      <motion.h2
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 0.5 }}
+        className="my-10 text-center text-4xl"
+      >
+        {" "}
+        Get in Touch
+      </motion.h2>
+      <motion.form
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{ duration: 0.5 }}
+        onSubmit={onSubmit}
+      >
         <h2>Contact Form</h2>
         <div className="input-box">
           <label htmlFor="name">Full Name</label>
@@ -87,7 +102,7 @@ const Contacts = () => {
         <button type="submit" disabled={isLoading}>
           {isLoading ? "Sending..." : "Send Message"}
         </button>
-      </form>
+      </motion.form>
     </section>
   );
 };

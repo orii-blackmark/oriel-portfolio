@@ -4,14 +4,15 @@
   align-items: center;
   min-height: 60vh;
   background: transparent;
-  padding: 20px; /* Add padding to prevent content from touching the edges on small screens */
+  padding: 20px; 
+  flex-direction: column;
 }
 
 form {
-  max-width: 600px; /* Allow the form to take full width on small screens */
+  max-width: 600px; 
   width: 100%;
   background: #f7f7f7;
-  padding: 20px; /* Adjusted padding for better spacing on small screens */
+  padding: 20px; 
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: #333;
@@ -19,7 +20,7 @@ form {
 }
 
 form h2 {
-  font-size: 24px; /* Reduced font size for better fit on small screens */
+  font-size: 24px; 
   text-align: center;
   font-weight: 600;
   border-bottom-width: 2px;

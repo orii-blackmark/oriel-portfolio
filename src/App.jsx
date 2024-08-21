@@ -1,5 +1,4 @@
 import About from "./components/About";
-import Contact from "./components/Contact";
 import Contacts from "./components/Contacts";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
@@ -20,7 +19,6 @@ const App = () => {
         <Technologies />
         <Experience />
         <Projects />
-        <Contact />
         <Contacts />
       </div>
     </div>
